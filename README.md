@@ -39,10 +39,6 @@ $ python3 gh.py -c -b 16 -t 5 example.bin
 
 This command loads the `example.bin` file using 5 threads, colorizes the output, and displays 16 bytes per line.
 
-### API Documentation
-
-gH provides a Python API for developers who want to integrate its features into their own applications. The API documentation is available in the `docs` directory.
-
 **Requirements**
 ------------
 
@@ -52,7 +48,6 @@ gH provides a Python API for developers who want to integrate its features into 
 * `tqdm` library
 * `magic` library
 * `numpy` library (for advanced analysis features)
-* `scipy` library (for advanced analysis features)
 
 **Installation**
 ------------
