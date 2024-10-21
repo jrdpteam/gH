@@ -163,12 +163,12 @@ def advanced_analysis(data):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="gH - tiny bytecode processing framework\nby JRDP Team   https://jrdpteam.netlify.app",
+        description="gH - tiny bytecode analyzing framework\nby JRDP Team   https://jrdpteam.netlify.app",
         usage="%(prog)s [options] <file_path>"
     )
     parser.add_argument(
         "file_path", 
-        help="Path to the binary file to be processed."
+        help="Path to the binary file to be loaded."
     )
     parser.add_argument(
         "-c", "--colorize", 
