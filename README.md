@@ -55,7 +55,7 @@ This command loads the `example.bin` file using 5 threads, colorizes the output,
 No installation required,just install dependencies,by running this command:
 
 ```bash
-    $ sudo bash install_dependencies.sh
+$ sudo bash install_dependencies.sh
 ```
 
 **Contributing**
