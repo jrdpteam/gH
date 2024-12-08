@@ -22,7 +22,7 @@ gH is a lightweight, open-source bytecode processing framework designed to provi
 
 ### Command-Line Interface
 
-gH can be used from the command line by running the `gh` script. The following options are available:
+gH can be used from the command line by running the `gH` script. The following options are available:
 
 * `-c`, `--colorize`: Colorize the output for easier reading.
 * `-b`, `--bytes-per-line`: Number of bytes to display per line (default: 16).
@@ -34,7 +34,7 @@ gH can be used from the command line by running the `gh` script. The following o
 ### Example Usage
 
 ```bash
-$ python3 gh.py -c -b 16 -t 5 example.bin
+$ python3 gH.py -c -b 16 -t 5 example.bin
 ```
 
 This command loads the `example.bin` file using 5 threads, colorizes the output, and displays 16 bytes per line.
